@@ -1,0 +1,5 @@
+- casedata: {"mobilephone":None,"pwd":None}
+  expect: {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}
+
+- casedata: {"mobilephone":"137555466888","pwd":"1234"}
+  expect: {"status":0,"code":"20111","data":null,"msg":"用户名或密码错误"}
